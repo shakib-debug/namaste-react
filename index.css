@@ -1,0 +1,34 @@
+.header{
+    border:1px solid black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    width:120px;
+    height:120px;
+    padding:0px 0px 0px 50px;
+}
+.items{
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type:none;
+    padding:0px 50px 0px 0px;
+    width:500px;
+    font-size:20px;
+}
+.res-card{
+    width:190px;
+ 
+    padding:5px;
+    margin:22px;
+}
+.res-card:hover{
+    border:1px solid black;
+    border-radius:10px;
+    cursor:pointer;
+}
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+}
