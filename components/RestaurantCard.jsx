@@ -1,11 +1,12 @@
 import { FcRating } from "react-icons/fc";
 import { CDN_URL } from "../utils/constants";
 
+
 const RestaurantCard =({resData})=>{
 
     return(
         <div className="res-card">
-            <img className="res-logo" style={{width:"190px",height:"150px",borderRadius:"10px",margin:"0px"}} alt="res-logo" src={CDN_URL+resData?.info?.cloudinaryImageId}/>
+            <img className="res-logo" style={{width:"130px",height:"100px",borderRadius:"10px",margin:"0px"}} alt="res-logo" src={CDN_URL+resData?.info?.cloudinaryImageId}/>
             <div>
             <h3 style={{marginTop:"0px"}}>{resData?.info?.name}</h3>
             <div style={{display:"flex",alignItems:"center",gap:"6px",marginTop:"-15px"}}>
